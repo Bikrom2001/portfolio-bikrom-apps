@@ -1,0 +1,118 @@
+.logo-color {
+    color: #64ffda;
+}
+
+.light-color {
+    color: #ccd6f6;
+}
+
+.header-hover:hover {
+    color: #64ffda;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.font-mono {
+    font-family: 'PT Mono', monospace;
+}
+
+.header-font-size {
+    font-size: 13px;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-heading {
+    color: #ccd6f6;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+}
+
+.color-gay {
+    color: #8892b0;
+}
+
+.custom-btn {
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.custom-btn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    outline: none;
+}
+
+.underlineLink {
+    color: #64ffda;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+
+}
+
+.underlineLink:hover {
+    color: #64ffda;
+    outline: 0px;
+}
+
+.underlineLink::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 1px;
+    position: relative;
+    bottom: 0.37em;
+    background-color: #64ffda;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0.5;
+}
+
+.underlineLink:hover::after {
+    width: 100%;
+}
+
+.all-heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 100%;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #233554;
+}
+
+.all-heading {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+/* .bikrom-img img {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.bikrom-img img:hover{
+    opacity: 1;
+} */
+
+

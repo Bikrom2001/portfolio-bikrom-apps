@@ -115,4 +115,11 @@
     opacity: 1;
 } */
 
+.project-details{
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+    border-radius: 4px;
+    background-color: #112240;
+    color: #a8b2d1;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
 

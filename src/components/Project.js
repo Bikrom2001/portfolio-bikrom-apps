@@ -15,7 +15,7 @@ const Project = () => {
                         <p className='text-right font-mono logo-color'>
                             Featured Project
                         </p>
-                        <a className='cursor-pointer' target='_blank' href="https://motor-complex.web.app/"><h3 className='text-right mb-5 font-inter font-bold text-2xl cursor-pointer'>Buy Second-Hand Cars</h3></a>
+                        <a rel="noopener noreferrer" className='cursor-pointer' target='_blank' href="https://motor-complex.web.app/"><h3 className='text-right mb-5 font-inter font-bold text-2xl cursor-pointer'>Buy Second-Hand Cars</h3></a>
 
                         <div className=" p-6 text-right  project-details">
                             <p className='flex font-mono items-start gap-3 mb-2'>
@@ -41,10 +41,10 @@ const Project = () => {
                             <p className='header-hover cursor-pointer text-sm'>Mongodb</p>
                         </div>
                         <div className='flex items-center gap-4 justify-end'>
-                            <a href="https://github.com/Bikrom2001/motor-complex-client" target='_blank'>
+                            <a rel="noopener noreferrer" href="https://github.com/Bikrom2001/motor-complex-client" target='_blank'>
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github w-6 h-6 cursor-pointer header-hover"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                             </a>
-                            <a href="https://motor-complex.web.app/" target='_blank'>
+                            <a rel="noopener noreferrer" href="https://motor-complex.web.app/" target='_blank'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 header-hover cursor-pointer h-6">
                                     <title>Live-side</title>
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -65,7 +65,7 @@ const Project = () => {
                         <p className='text-left font-mono logo-color'>
                             Featured Project
                         </p>
-                        <a className='cursor-pointer' target='_blank' href="https://doctors-services-1fefe.web.app/"><h3 className='text-left mb-5 font-inter font-bold text-2xl cursor-pointer'>Doctors Portal</h3></a>
+                        <a rel="noopener noreferrer" className='cursor-pointer' target='_blank' href="https://doctors-services-1fefe.web.app/"><h3 className='text-left mb-5 font-inter font-bold text-2xl cursor-pointer'>Doctors Portal</h3></a>
 
                         <div className=" p-6 text-right  project-details">
                             <p className='flex font-mono items-start gap-3 mb-2'>
@@ -92,10 +92,10 @@ const Project = () => {
                             <p className='header-hover cursor-pointer text-sm'>Mongodb</p>
                         </div>
                         <div className='flex items-center gap-4 justify-start'>
-                            <a href="https://github.com/Bikrom2001/life-of-travel-client" target='_blank'>
+                            <a rel="noopener noreferrer" href="https://github.com/Bikrom2001/life-of-travel-client" target='_blank'>
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github w-6 h-6 cursor-pointer header-hover"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                             </a>
-                            <a href="https://doctors-services-1fefe.web.app/" target='_blank'>
+                            <a rel="noopener noreferrer" href="https://doctors-services-1fefe.web.app/" target='_blank'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 header-hover cursor-pointer h-6">
                                     <title>Live-side</title>
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -123,7 +123,7 @@ const Project = () => {
                         <p className='text-right font-mono logo-color'>
                             Featured Project
                         </p>
-                        <a className='cursor-pointer' target='_blank' href="https://global-online-courses.web.app/"><h3 className='text-right mb-5 font-inter font-bold text-2xl cursor-pointer'>Online Courses</h3></a>
+                        <a rel="noopener noreferrer" className='cursor-pointer' target='_blank' href="https://global-online-courses.web.app/"><h3 className='text-right mb-5 font-inter font-bold text-2xl cursor-pointer'>Online Courses</h3></a>
 
                         <div className=" p-6 text-right  project-details">
                             <p className='flex font-mono items-start gap-3 mb-2'>
@@ -149,10 +149,10 @@ const Project = () => {
                             <p className='header-hover cursor-pointer text-sm'>Mongodb</p>
                         </div>
                         <div className='flex items-center gap-4 justify-end'>
-                            <a href="https://github.com/Bikrom2001/programming-lang-client-side" target='_blank'>
+                            <a rel="noopener noreferrer" href="https://github.com/Bikrom2001/programming-lang-client-side" target='_blank'>
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github w-6 h-6 cursor-pointer header-hover"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                             </a>
-                            <a href="https://global-online-courses.web.app/" target='_blank'>
+                            <a rel="noopener noreferrer" href="https://global-online-courses.web.app/" target='_blank'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 header-hover cursor-pointer h-6">
                                     <title>Live-side</title>
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />

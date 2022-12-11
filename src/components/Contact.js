@@ -14,12 +14,12 @@ const Contact = () => {
       emailjs.sendForm('service_1g6x9kh', 'template_c8ny93m', form.current, 'CjTNg5FmJfj8-8uSp')
         .then((result) => {
             console.log(result.text);
+            form.reset();
             toast.success('Successfully message send', {autoClose: 1500});
+ 
         }, (error) => {
             console.log(error.text);
         });
-        
-        form.reset();
     };
 
 
@@ -53,6 +53,9 @@ const Contact = () => {
                 <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded custom-btn font-mono">Send Message</button>
             </form>
         </div>
+
+       
+
       </section>
     );
 };

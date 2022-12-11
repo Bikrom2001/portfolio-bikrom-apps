@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
@@ -53,6 +54,14 @@ const Project = () => {
 
                         </div>
 
+                        <div className='flex justify-end mt-5'>
+                           <Link to='/cardDeatils'>
+                           <button className='px-3 w-38 text-center py-2 m-2 custom-btn '>
+                                Learn More
+                            </button>
+                           </Link>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -102,6 +111,13 @@ const Project = () => {
                                 </svg>
                             </a>
 
+                        </div>
+                        <div className='flex justify-start mt-5'>
+                           <Link to='/DoctorsDeatils'>
+                           <button className='px-3 w-38 text-center py-2 m-2 custom-btn '>
+                                Learn More
+                            </button>
+                           </Link>
                         </div>
 
                     </div>
@@ -160,11 +176,13 @@ const Project = () => {
                             </a>
 
                         </div>
-                       <div className='flex justify-end mt-5'>
-                       <button className='px-6 w-38 text-center py-4 m-2 custom-btn '>
-                            Learn More
-                        </button>
-                       </div>
+                        <div className='flex justify-end mt-5'>
+                           <Link to='/coursesDeatils'>
+                           <button className='px-3 w-38 text-center py-2 m-2 custom-btn '>
+                                Learn More
+                            </button>
+                           </Link>
+                        </div>
 
                     </div>
                 </div>

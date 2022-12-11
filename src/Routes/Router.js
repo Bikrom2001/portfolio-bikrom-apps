@@ -1,4 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
+import Blogs from "../components/Blogs";
+import CarsDeatils from "../components/CarsDeatils";
+import CoursesDetails from "../components/CoursesDetails";
+import DoctorsDetails from "../components/DoctorsDetails";
 import ErrorPage from "../components/ErrorPage";
 import Home from "../components/Home";
 import Main from "../Layout/Main";
@@ -17,6 +21,23 @@ const router = createBrowserRouter([
                 path: '/home',
                 element: <Home></Home>
             },
+            {
+                path:'/cardDeatils',
+                element: <CarsDeatils></CarsDeatils>
+            },
+            {
+                path:'/DoctorsDeatils',
+                element: <DoctorsDetails></DoctorsDetails>
+            },
+            {
+                path:'/coursesDeatils',
+                element: <CoursesDetails></CoursesDetails>
+            },
+            {
+                path:'/blog',
+                element: <Blogs></Blogs>
+            },
+           
         ]
     }
 ])

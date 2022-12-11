@@ -70,6 +70,16 @@ const Header = () => {
               <span className='logo-color'> 05.</span>Contact
             </Link>
           </li>
+          <li>
+            <Link
+              to='/blog'
+              aria-label='Contact'
+              title='Contact'
+              className='font-medium tracking-wide header-hover light-color'
+            >
+              <span className='logo-color'> 06.</span>Blogs
+            </Link>
+          </li>
         </ul>
         <div className='lg:hidden'>
           <button

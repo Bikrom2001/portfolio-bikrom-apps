@@ -1,5 +1,4 @@
 import React from 'react';
-import images from '../accests/contact/Motor Complex-second-hand-products-selling (1).png';
 
 const Project = () => {
     return (

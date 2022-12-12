@@ -2,6 +2,10 @@
     color: #64ffda;
 }
 
+.logo-background {
+    background-color: #64ffda;
+}
+
 .light-color {
     color: #ccd6f6;
 }
@@ -10,7 +14,8 @@
     color: #64ffda;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.card-background{
+
+.card-background {
     background-color: #112240;
 }
 
@@ -148,9 +153,10 @@ p.test2 {
     writing-mode: vertical-rl;
 }
 
-.card-hover{
+.card-hover {
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.card-hover:hover{
+
+.card-hover:hover {
     transform: translateY(-3px);
 }

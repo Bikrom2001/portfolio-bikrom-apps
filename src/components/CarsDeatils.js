@@ -1,6 +1,7 @@
 import React from 'react';
-// import cars from '../accests/Project/motor-complex.web.app_.png';
+import cars from '../accests/Project/motor-complex.web.app_.png';
 import car from '../accests/Project/motor-complex.web.app_allcategory_01.png';
+import Onecar from '../accests/Project/motor-complex.web.app_dashboard (4).png';
 
 const CarsDeatils = () => {
     return (
@@ -146,9 +147,10 @@ const CarsDeatils = () => {
 
 
                 </div>
-                <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                    {/* <img src={cars} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" /> */}
-                    <img src={car} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+                <div className="pr-6 h-80 lg:w-1/2 mt-8">
+                    <img className='object-cover w-full mb-4 h-full max-w-2xl rounded-md' src={car} alt="" />
+                    <img className='object-cover w-full mb-4 h-full max-w-2xl rounded-md' src={cars} alt="" />
+                    <img className='object-cover w-full mb-4 h-full max-w-2xl rounded-md' src={Onecar} alt="" />
                 </div>
             </div>
         </section>

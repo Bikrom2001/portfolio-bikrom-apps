@@ -1,5 +1,7 @@
 import React from 'react';
-import car from '../accests/Project/motor-complex.web.app_allcategory_01.png';
+import courses from '../accests/Project/global-online-courses.web.app_.png';
+import cours from '../accests/Project/global-online-courses.web.app_ (1).png';
+import checkout from '../accests/Project/global-online-courses.web.app_ (2).png';
 
 const CoursesDetails = () => {
     return (
@@ -145,10 +147,11 @@ const CoursesDetails = () => {
 
 
             </div>
-            <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                {/* <img src={cars} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" /> */}
-                <img src={car} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
-            </div>
+            <div className="pr-6 h-80 lg:w-1/2 mt-8">
+                    <img className='object-cover w-full mb-4 h-full max-w-2xl rounded-md' src={courses} alt="" />
+                    <img className='object-cover w-full mb-4 h-full max-w-2xl rounded-md' src={cours} alt="" />
+                    <img className='object-cover w-full mb-4 h-full max-w-2xl rounded-md' src={checkout} alt="" />
+                </div>
         </div>
     </section>
     );

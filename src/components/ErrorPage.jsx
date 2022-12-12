@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const ErrorPage = () => {
   return (
-    <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-900'>
+    <section className='flex items-center h-screen p-16'>
       <div className='container flex flex-col items-center justify-center px-5 mx-auto my-8'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -32,14 +32,14 @@ const ErrorPage = () => {
         </svg>
         <div className='max-w-md text-center'>
           <h2 className='mb-8 font-extrabold text-9xl text-gray-600'>
-            <span className='sr-only'>Error</span>404
+            <span className='sr-only'>Error</span><span className='logo-color'>404</span>
           </h2>
           <p className='text-2xl font-semibold md:text-3xl mb-8'>
             Sorry, we couldn't find this page.
           </p>
           <Link
             to='/'
-            className='px-8 py-3 font-semibold rounded bg-cyan-200 text-gray-900'
+            className='px-8 py-3 custom-btn'
           >
             Back to homepage
           </Link>

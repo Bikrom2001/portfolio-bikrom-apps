@@ -14,6 +14,7 @@ const Contact = () => {
       emailjs.sendForm('service_1g6x9kh', 'template_c8ny93m', form.current, 'CjTNg5FmJfj8-8uSp')
         .then((result) => {
             console.log(result.text);
+            console.log('message send');
             form.reset();
             toast.success('Successfully message send', {autoClose: 1500});
  

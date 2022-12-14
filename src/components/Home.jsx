@@ -20,6 +20,7 @@ const Home = () => {
       <SocailLogin></SocailLogin>
       <Email></Email>
       
+      
    </div>
   );
 };

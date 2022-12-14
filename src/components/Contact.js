@@ -34,9 +34,8 @@ const Contact = () => {
             <div className="flex flex-col justify-between">
                 <div className="space-y-2">
                     <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-                    <div className="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</div>
                 </div>
-                <img src={icons2} alt="" className="p-5 h-52 md:h-64" />
+                <img src={icons2} alt="" className="p-5 animated h-52 md:h-64" />
             </div>
             <form ref={form} onSubmit={sendEmail} className="space-y-6 ng-untouched ng-pristine ng-valid">
                 <div>

@@ -15,7 +15,6 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             console.log('message send');
-            form.reset();
             toast.success('Successfully message send', {autoClose: 1500});
  
         }, (error) => {
